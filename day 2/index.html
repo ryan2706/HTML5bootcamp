@@ -3,33 +3,57 @@
 
 <head>
     <meta charset="utf-8"/>
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+    <title>My first webpage</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
 </head>
 
 <body>
-    <img id="headshot" src="ryan_pic.jpg" alt="a picture of me" width="15%" height="15%" />
-    <div>
-        <span id="myName">
-            Ryan Cheng
-        </span>
-        - 
-        <span id="myMajor">
-            Computer Science
-        </span>
+    <!-- header -->
+    <div id="header">
+        <h1>Welcome to my page!</h1>
     </div>
     
-    <div>
-        Ryan loves
-    </div>
-    <ul>
-        <li>Playing guitar</li>
-        <li>Playing CS</li>
-    </ul>
-    <input type="text" id="inputBox" />
-    <button id="sendButton">Send</button>
-    <br><br><br><br><br><br><br><br><br>
-    <div id="messageBox"></div>
+    <!-- navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    
+    <!-- content -->
+    <section>
+        <img id="headshot" src="img/ryan_pic.jpg" alt="a picture of me" width="15%" height="15%" />
+        
+        <h2>Ryan Cheng</h2>
+        
+        <p id="myMajor">
+            Computer Science
+        </p>
+        
+    
+        <p>
+            Ryan loves
+        </p>
+        <ul>
+            <li>Playing guitar</li>
+            <li>Playing CS</li>
+        </ul>
+    </section>
+    
+    <aside>
+        <input type="text" id="inputBox" />
+        <button id="sendButton">Send</button>
+        <br>
+        <div id="messageBox"></div>
+    </aside>
+    
+    <!-- footer -->
+    <footer>
+        <p>Copycenter</p>
+    </footer>
+    
 </body>
 
 </html>

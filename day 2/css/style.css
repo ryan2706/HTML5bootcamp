@@ -3,13 +3,11 @@ body {
 }
 
 #headshot {
-    float: left;
-    margin-right: 50px;
+    padding: 10px;
+    background-color: white;
+    
 }
 
-#myName {
-    font-weight: bold;
-}
 
 #myMajor {
     font-style: italic;
