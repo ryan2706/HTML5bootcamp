@@ -1,0 +1,26 @@
+body {
+    background-color: azure;
+}
+
+#headshot {
+    float: left;
+    margin-right: 50px;
+}
+
+#myName {
+    font-weight: bold;
+}
+
+#myMajor {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#inputBox {
+    clear: both;
+}
+
+#messageBox {
+    min-height: 50px;
+    background-color: aquamarine;
+}
