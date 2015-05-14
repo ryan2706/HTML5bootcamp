@@ -2,12 +2,17 @@ body {
     background-color: azure;
 }
 
+nav {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
 #headshot {
     padding: 10px;
     background-color: white;
     
 }
-
 
 #myMajor {
     font-style: italic;
